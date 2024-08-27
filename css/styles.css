@@ -128,8 +128,10 @@ ol {
 .main-section {
   background-image: url(../images/Index/Imgbackground.jpg);
   background-repeat: no-repeat;
-    background-size: cover; 
-    background-position: center;
+background-size: cover; 
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #2f303a;
   padding-top: 195px;
   padding-bottom: 200px;
@@ -334,7 +336,11 @@ ol {
   width: 370px;
   height: 404px;
 }
-
+.img-about:hover,
+.img-about:focus {
+  box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
+    0 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
 .img-item {
   display: block;
 }
@@ -430,7 +436,8 @@ ol {
 .item-icon {
   fill: #afb1b8;
 }
-.clients-link:hover .item-icon {
+.clients-link:hover .item-icon,
+.clients-link:focus .item-icon {
   fill: var(--accent-color);
 }
 .clients-link:hover {
