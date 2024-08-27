@@ -89,6 +89,14 @@ ol {
 .header-icon {
   margin-right: 10px;
 }
+.icon-mode {
+  display: flex;
+  align-items: center;
+}
+.icon-mode:hover,
+.icon-mode:focus {
+  fill: var(--accent-color);
+}
 /**---------- header-container ----------**/
 
 .header {
@@ -119,9 +127,13 @@ ol {
 /**---------- Main ----------**/
 .main-section {
   background-image: url(../images/Index/Imgbackground.jpg);
+  background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
   background-color: #2f303a;
   padding-top: 195px;
   padding-bottom: 200px;
+  max-width: 1600px;
 }
 .hero-section {
   padding-top: 94px;
