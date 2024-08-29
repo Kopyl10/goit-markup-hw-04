@@ -88,11 +88,11 @@ ol {
 }
 .header-icon {
   margin-right: 10px;
-  fill: #757575;
 }
 .icon-mode {
   display: flex;
   align-items: center;
+  fill: #757575;
 }
 .icon-mode:hover,
 .icon-mode:focus {
@@ -344,12 +344,15 @@ ol {
   width: 370px;
   height: 404px;
 }
-.img-about:hover,
-.img-about:focus {
+.img-block:hover,
+.img-block:focus {
   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
     0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
 .img-item {
+  display: block;
+}
+.img-block {
   display: block;
 }
 
@@ -416,9 +419,6 @@ ol {
 
 .social-item:not(:last-child) {
   margin-right: 10px;
-}
-.social-link-box {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 /**-- Clients --**/
 .clients-list {
